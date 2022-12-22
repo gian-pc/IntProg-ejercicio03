@@ -1,7 +1,7 @@
 package funciones;
 
 public class Main {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         int resultado;
         resultado = suma(1, 2, 3);
 
@@ -19,13 +19,13 @@ public class Main {
         return a + b + c;
     }
 
-    class Coche {
-        public int numPuertas = 0;
+}
 
-        public void AddPuertas() {
-            this.numPuertas--;
-        }
+
+class Coche {
+    public int numPuertas = 4;
+
+    public void AddPuertas() {
+        this.numPuertas--;
     }
-
-
 }
